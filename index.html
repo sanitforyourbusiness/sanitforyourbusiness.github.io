@@ -175,7 +175,7 @@
       <a href="#services">ဝန်ဆောင်မှုများ</a>
       <a href="#video">Video</a>
       <a href="#why">ဘာကြောင့် SANIT</a>
-      <a class="nav-cta" href="#contact">Project ရှိပါသလား?</a>
+      <a class="nav-cta" href="#contact">ဆက်သွယ်ရန်</a>
     </div>
   </div>
 </nav>
@@ -331,5 +331,63 @@
 <section class="contact" id="contact">
   <div class="wrap mm">
     <span class="eyebrow">Contact</span>
-    <h2 class="sec-h"><!-- EDIT -->Project ရှိပါသလား? စကားပြောကြရအောင်။</h2>
-    <p class="sec-p"><!-- EDIT -->သင့်လုပ်ငန်းအတွက် အခမဲ့တိုင်ပင်
+    <h2 class="sec-h"><!-- EDIT -->ဆက်သွယ်ရန်</h2>
+    <p class="sec-p"><!-- EDIT -->သင့်လုပ်ငန်းအတွက် အခမဲ့တိုင်ပင်ဆွေးနွေးလိုပါက အောက်ပါအတိုင်း ဆက်သွယ်နိုင်ပါသည်။</p>
+    <div class="c-grid">
+      <div>
+        <div class="c-item"><div class="ci">📧</div><div><b>Email</b><span>sanitforyourbusiness@gmail.com</span></div></div>
+        <div class="c-item"><div class="ci">📞</div><div><b>ဖုန်း</b><span><!-- EDIT -->09-XXX XXX XXX</span></div></div>
+        <div class="c-item"><div class="ci">📍</div><div><b>လိပ်စာ</b><span><!-- EDIT -->နေပြည်တော်၊ မြန်မာနိုင်ငံ</span></div></div>
+        <div class="c-item"><div class="ci">💬</div><div><b>Social Media</b><span><!-- EDIT -->Facebook / Viber / Telegram link များထည့်ရန်</span></div></div>
+      </div>
+      <!-- Contact Form — FormSubmit.co မှတဆင့် sanitforyourbusiness@gmail.com သို့ရောက်မည် -->
+      <form action="https://formsubmit.co/sanitforyourbusiness@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="SANIT Website မှ ဆက်သွယ်စာအသစ်">
+        <input type="hidden" name="_next" value="https://sanitforyourbusiness.github.io/?sent=1#contact">
+        <input type="hidden" name="_template" value="table">
+        <div class="row">
+          <input type="text" name="အမည်" placeholder="အမည်" required>
+          <input type="text" name="ဖုန်းနံပါတ်" placeholder="ဖုန်းနံပါတ်">
+        </div>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea rows="4" name="စာ" placeholder="သင့်လုပ်ငန်းအကြောင်းနှင့် လိုအပ်ချက်ကို ရေးပါ..." required></textarea>
+        <button class="btn btn-dark" type="submit">ပေးပို့မည်</button>
+      </form>
+    </div>
+  </div>
+</section>
+<script>
+  if(new URLSearchParams(location.search).get('sent')==='1'){
+    alert('ကျေးဇူးတင်ပါသည်။ သင့်စာကို ပေးပို့ပြီးပါပြီ။ မကြာမီ ပြန်လည်ဆက်သွယ်ပေးပါမည်။');
+  }
+</script>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="mm">
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <span class="logo-name" style="color:#fff">SANIT</span><br>
+        <span class="logo-sub" style="color:#aab2c5">BUSINESS SOLUTIONS</span>
+        <p><!-- EDIT -->လူကြီးမင်းရဲ့ လုပ်ငန်းအိုင်ဒီယာကို လက်တွေ့အကောင်အထည်ဖော်ဖို့ တစ်လှမ်းပိုလွယ်ကူအောင် ကူညီပေးနေပါတယ်။<br><br>sanitforyourbusiness — sanitforyourbusiness@gmail.com</p>
+      </div>
+      <div>
+        <h4>SERVICES</h4>
+        <a href="#services">Business System</a>
+        <a href="#services">Financial Reporting</a>
+        <a href="#services">AI Automation</a>
+        <a href="#services">Dashboard & Data</a>
+      </div>
+      <div>
+        <h4>LEARN MORE</h4>
+        <a href="#why">ဘာကြောင့် SANIT</a>
+        <a href="#video">Video</a>
+        <a href="#contact">ဆက်သွယ်ရန်</a>
+      </div>
+    </div>
+    <div class="f-bottom">© 2026 SANIT Business Solutions (sanitforyourbusiness). All rights reserved. | sanitforyourbusiness.github.io</div>
+  </div>
+</footer>
+
+</body>
+</html>

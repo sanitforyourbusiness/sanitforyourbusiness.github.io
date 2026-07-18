@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SANIT Business Solutions | sanitforyourbusiness — SME လုပ်ငန်းစနစ်များ</title>
+<!-- ================================================================
+     SANIT Business Solutions — v2 (stensup-inspired design)
+     စာသားပြင်ရန် — <!== EDIT ==> မှတ်ထားတဲ့နေရာတွေမှာ ပြင်နိုင်ပါတယ်
+     Video ထည့်ရန် — အောက်က VIDEO_URL မှာ YouTube link ထည့်ပါ
+     ================================================================ -->
 <meta name="description" content="SANIT Business Solutions (sanitforyourbusiness) — SME လုပ်ငန်းများအတွက် Business System တည်ဆောက်ခြင်း၊ AI Automation၊ စာရင်းကိုင်နှင့် Financial Reporting ဝန်ဆောင်မှုများ။ Naypyidaw, Myanmar.">
 <meta name="keywords" content="SANIT, sanitforyourbusiness, SANIT Business Solutions, SME Myanmar, Business System, AI Automation, Financial Reporting, စာရင်းကိုင်, နေပြည်တော်">
 <meta name="robots" content="index, follow">
@@ -22,140 +27,138 @@
   "url": "https://sanitforyourbusiness.github.io/",
   "email": "sanitforyourbusiness@gmail.com",
   "description": "SME လုပ်ငန်းများအတွက် Business System တည်ဆောက်ခြင်း၊ AI Automation၊ စာရင်းကိုင်နှင့် Financial Reporting ဝန်ဆောင်မှုများ",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Naypyidaw",
-    "addressCountry": "MM"
-  },
+  "address": {"@type": "PostalAddress", "addressLocality": "Naypyidaw", "addressCountry": "MM"},
   "areaServed": "Myanmar",
   "knowsAbout": ["Business Systems", "AI Automation", "Financial Reporting", "Accounting", "SME Consulting"]
 }
 </script>
-<!-- ================================================================
-     SANIT Business Solutions — Website နမူနာ (Draft v1)
-     စာသားပြင်ရန် — <!== EDIT ==> လို့ရေးထားတဲ့နေရာတွေမှာ ပြင်နိုင်ပါတယ်
-     ================================================================ -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* Logo ထဲက အရောင်များ */
-    --blue:#1f47b5;        /* SANIT စာလုံးအပြာ */
-    --blue-dark:#122a6e;
-    --cyan:#2aa9df;        /* မြှားအပြာနု */
-    --green:#7dc242;       /* မြှားအစိမ်း */
-    --orange:#f7941d;      /* နေရောင် */
-    --ink:#1c2333;
-    --muted:#5b6478;
-    --bg:#f6f8fc;
-    --card:#ffffff;
+    --blue:#1f47b5; --blue-dark:#122a6e; --cyan:#2aa9df; --green:#7dc242; --orange:#f7941d;
+    --ink:#171c28; --muted:#5b6478; --bg:#ffffff; --soft:#f5f8fd; --line:#e7ecf5;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{font-family:'Poppins','Padauk',sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
-  h1,h2,h3{line-height:1.35}
+  body{font-family:'Poppins','Padauk',sans-serif;color:var(--ink);background:var(--bg);line-height:1.75}
   .mm{font-family:'Padauk','Poppins',sans-serif}
-  .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
-  section{padding:80px 0}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+  section{padding:90px 0}
+  h1,h2,h3{line-height:1.3}
+  .btn{display:inline-block;padding:14px 34px;border-radius:50px;font-weight:700;text-decoration:none;transition:.25s;font-size:.95rem}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{background:var(--blue);transform:translateY(-2px)}
+  .btn-line{border:2px solid var(--ink);color:var(--ink)}
+  .btn-line:hover{background:var(--ink);color:#fff}
+  .eyebrow{display:inline-block;font-weight:700;letter-spacing:3px;font-size:.75rem;text-transform:uppercase;color:var(--orange);margin-bottom:14px}
+  .sec-h{font-size:2.2rem;font-weight:800;color:var(--ink);margin-bottom:16px}
+  .sec-p{color:var(--muted);max-width:660px}
 
-  /* ---------- Navbar ---------- */
-  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);box-shadow:0 1px 12px rgba(18,42,110,.08)}
-  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1100px;margin:0 auto}
+  /* Nav */
+  nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;max-width:1140px;margin:0 auto;padding:14px 24px}
   .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-  .logo-name{font-weight:800;font-size:1.5rem;color:var(--blue);letter-spacing:1px}
-  .logo-sub{font-size:.6rem;font-weight:600;color:var(--blue-dark);letter-spacing:2px;text-transform:uppercase}
-  .nav-links{display:flex;gap:26px;align-items:center}
-  .nav-links a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.92rem}
-  .nav-links a:hover{color:var(--blue)}
-  .btn{display:inline-block;padding:12px 28px;border-radius:40px;font-weight:700;text-decoration:none;transition:.25s}
-  .btn-primary{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;box-shadow:0 6px 18px rgba(31,71,181,.35)}
-  .btn-primary:hover{transform:translateY(-2px)}
-  .btn-ghost{border:2px solid var(--blue);color:var(--blue)}
-  .btn-ghost:hover{background:var(--blue);color:#fff}
+  .logo-name{font-weight:900;font-size:1.4rem;color:var(--blue);letter-spacing:.5px;line-height:1.1}
+  .logo-sub{font-size:.55rem;font-weight:700;color:var(--blue-dark);letter-spacing:2.5px}
+  .nav-l{display:flex;gap:30px;align-items:center}
+  .nav-l a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.92rem}
+  .nav-l a:hover{color:var(--blue)}
+  .nav-cta{background:var(--ink);color:#fff !important;padding:10px 24px;border-radius:50px}
+  .nav-cta:hover{background:var(--blue)}
 
-  /* ---------- Hero ---------- */
-  .hero{background:radial-gradient(1200px 600px at 80% -10%,rgba(42,169,223,.18),transparent),
-              radial-gradient(900px 500px at 10% 110%,rgba(125,194,66,.15),transparent),
-              linear-gradient(180deg,#ffffff,var(--bg));
-        padding:90px 0 70px}
-  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
-  .tag{display:inline-block;background:rgba(125,194,66,.15);color:#4d8a1f;font-weight:700;font-size:.8rem;padding:6px 16px;border-radius:30px;margin-bottom:18px}
-  .hero h1{font-size:2.6rem;font-weight:800;color:var(--blue-dark)}
-  .hero h1 span{background:linear-gradient(90deg,var(--blue),var(--cyan),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .hero p{margin:20px 0 30px;color:var(--muted);font-size:1.05rem}
-  .hero-actions{display:flex;gap:16px;flex-wrap:wrap}
-  .stats{display:flex;gap:38px;margin-top:44px}
-  .stat b{font-size:1.7rem;color:var(--blue)}
-  .stat small{color:var(--muted);font-weight:600}
+  /* Hero */
+  .hero{padding:100px 0 80px;background:
+    radial-gradient(700px 400px at 90% 0%,rgba(42,169,223,.10),transparent),
+    radial-gradient(600px 400px at 5% 100%,rgba(125,194,66,.10),transparent)}
+  .hero-g{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .hero h1{font-size:3.2rem;font-weight:900;letter-spacing:-1px;color:var(--ink)}
+  .hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero .sub{margin:22px 0 10px;color:var(--muted);font-size:1.08rem}
+  .hero .sub b{color:var(--ink)}
+  .hero-act{display:flex;gap:16px;margin-top:30px;flex-wrap:wrap}
+  .credit{font-size:.72rem;color:#a8b0c2;margin-top:14px}
+  .credit a{color:#a8b0c2}
+  .hero-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:38px;box-shadow:0 24px 60px rgba(18,42,110,.10);text-align:center}
 
-  /* ---------- Section headers ---------- */
-  .sec-tag{color:var(--orange);font-weight:700;letter-spacing:2px;font-size:.8rem;text-transform:uppercase}
-  .sec-title{font-size:2rem;font-weight:800;color:var(--blue-dark);margin:8px 0 14px}
-  .sec-desc{color:var(--muted);max-width:640px}
+  /* Video */
+  .video-sec{background:var(--soft)}
+  .video-box{position:relative;border-radius:24px;overflow:hidden;box-shadow:0 24px 60px rgba(18,42,110,.12);aspect-ratio:16/9;background:linear-gradient(135deg,var(--blue-dark),var(--blue));margin-top:44px}
+  .video-box iframe,.video-box video{width:100%;height:100%;border:0;display:block}
+  .video-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:#fff}
+  .video-ph .play{width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-size:1.6rem}
+  .video-ph p{color:rgba(255,255,255,.85);font-weight:600}
+  .video-ph small{color:rgba(255,255,255,.55)}
 
-  /* ---------- Services ---------- */
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
-  .card{background:var(--card);border-radius:18px;padding:30px 26px;box-shadow:0 8px 24px rgba(18,42,110,.07);transition:.25s;border-top:4px solid transparent}
-  .card:hover{transform:translateY(-6px);border-top-color:var(--green)}
-  .card .icon{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;margin-bottom:18px}
-  .ic-blue{background:rgba(31,71,181,.12)}
-  .ic-green{background:rgba(125,194,66,.15)}
-  .ic-orange{background:rgba(247,148,29,.14)}
-  .ic-cyan{background:rgba(42,169,223,.14)}
-  .card h3{font-size:1.12rem;color:var(--blue-dark);margin-bottom:10px}
-  .card p{color:var(--muted);font-size:.94rem}
+  /* Services */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;margin-top:50px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:36px;transition:.25s}
+  .card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(18,42,110,.10);border-color:transparent}
+  .chip{width:58px;height:58px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:20px}
+  .c-blue{background:rgba(31,71,181,.10)} .c-green{background:rgba(125,194,66,.14)}
+  .c-orange{background:rgba(247,148,29,.13)} .c-cyan{background:rgba(42,169,223,.13)}
+  .card h3{font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
+  .card p{color:var(--muted);font-size:.95rem}
 
-  /* ---------- Process ---------- */
-  .process{background:linear-gradient(135deg,var(--blue-dark),var(--blue) 60%,#1b5fbf)}
-  .process .sec-title,.process .step h3{color:#fff}
-  .process .sec-desc{color:rgba(255,255,255,.75)}
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:46px}
-  .step{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:26px 22px}
-  .step .num{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--cyan));color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
-  .step h3{font-size:1rem;margin-bottom:8px}
-  .step p{color:rgba(255,255,255,.75);font-size:.88rem}
+  /* Formula band */
+  .band{background:linear-gradient(120deg,var(--blue-dark),var(--blue) 65%,#1b5fbf);color:#fff;border-radius:28px;padding:70px 60px;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+  .band .eyebrow{color:var(--green)}
+  .band h2{font-size:2rem;font-weight:800;margin-bottom:16px}
+  .band p{color:rgba(255,255,255,.8)}
+  .band .btn{background:#fff;color:var(--blue-dark);margin-top:26px}
+  .band .btn:hover{background:var(--green);color:#fff}
+  .steps{display:grid;gap:16px}
+  .step{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:18px 22px;display:flex;gap:16px;align-items:center}
+  .step .n{min-width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--cyan));display:flex;align-items:center;justify-content:center;font-weight:800}
+  .step b{font-size:.98rem}
 
-  /* ---------- About ---------- */
-  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
-  .about ul{list-style:none;margin-top:22px}
-  .about li{padding:10px 0 10px 36px;position:relative;color:var(--ink);font-weight:500}
-  .about li::before{content:"✔";position:absolute;left:0;top:10px;width:24px;height:24px;border-radius:50%;background:var(--green);color:#fff;font-size:.75rem;display:flex;align-items:center;justify-content:center}
-  .about-visual{background:linear-gradient(145deg,#fff,#eef3fb);border-radius:22px;padding:40px;box-shadow:0 12px 30px rgba(18,42,110,.1);text-align:center}
+  /* Why us */
+  .why{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 60px;margin-top:44px}
+  .why div{padding:22px 0;border-bottom:1px solid var(--line)}
+  .why b{display:block;font-size:1.05rem;color:var(--ink);margin-bottom:6px}
+  .why b::before{content:"— ";color:var(--green);font-weight:900}
+  .why p{color:var(--muted);font-size:.94rem}
 
-  /* ---------- Contact ---------- */
-  .contact{background:#fff}
-  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:40px}
-  .contact-item{display:flex;gap:14px;align-items:flex-start;margin-bottom:22px}
-  .contact-item .ci{width:44px;height:44px;border-radius:12px;background:rgba(31,71,181,.1);display:flex;align-items:center;justify-content:center;font-size:1.2rem}
-  .contact-item b{display:block;color:var(--blue-dark)}
-  .contact-item span{color:var(--muted);font-size:.95rem}
-  form .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  input,textarea{width:100%;padding:14px 16px;border:1.5px solid #dde4f0;border-radius:12px;font-family:inherit;font-size:.95rem;margin-bottom:16px;background:var(--bg)}
-  input:focus,textarea:focus{outline:none;border-color:var(--cyan)}
+  /* Contact */
+  .contact{background:var(--soft)}
+  .c-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;margin-top:44px}
+  .c-item{display:flex;gap:14px;margin-bottom:24px;align-items:flex-start}
+  .c-item .ci{width:46px;height:46px;border-radius:13px;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:1.15rem}
+  .c-item b{display:block;color:var(--ink)}
+  .c-item span{color:var(--muted);font-size:.95rem}
+  form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:34px;box-shadow:0 16px 40px rgba(18,42,110,.07)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  input,textarea{width:100%;padding:14px 16px;border:1.5px solid var(--line);border-radius:12px;font-family:inherit;font-size:.95rem;margin-bottom:16px;background:var(--soft)}
+  input:focus,textarea:focus{outline:none;border-color:var(--cyan);background:#fff}
+  form button{width:100%;border:none;cursor:pointer;font-family:inherit}
 
-  /* ---------- Footer ---------- */
-  footer{background:var(--blue-dark);color:rgba(255,255,255,.8);padding:36px 0;text-align:center;font-size:.9rem}
-  footer b{color:#fff}
+  /* Footer */
+  footer{background:var(--ink);color:#aab2c5;padding:70px 0 30px}
+  .f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.1)}
+  footer h4{color:#fff;font-size:.95rem;margin-bottom:16px;letter-spacing:1px}
+  footer a{color:#aab2c5;text-decoration:none;display:block;margin-bottom:10px;font-size:.92rem}
+  footer a:hover{color:var(--green)}
+  .f-brand p{font-size:.92rem;margin-top:12px}
+  .f-bottom{text-align:center;padding-top:26px;font-size:.85rem;color:#7c8598}
 
-  @media(max-width:820px){
-    .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
-    .cards{grid-template-columns:1fr}
-    .steps{grid-template-columns:repeat(2,1fr)}
-    .nav-links{display:none}
-    .hero h1{font-size:2rem}
+  @media(max-width:860px){
+    .hero-g,.band,.c-grid{grid-template-columns:1fr}
+    .cards,.why,.f-grid{grid-template-columns:1fr}
+    .hero h1{font-size:2.2rem}
+    .band{padding:44px 28px}
+    .nav-l{display:none}
   }
 </style>
 </head>
 <body>
 
-<!-- ==================== NAVBAR ==================== -->
+<!-- ==================== NAV ==================== -->
 <nav>
-  <div class="nav-inner">
+  <div class="nav-in">
     <a class="logo" href="#home">
-      <!-- Logo အစစ် — "sanit-logo.png" ကို ဒီ file နဲ့ folder တစ်ခုတည်းထဲ ထည့်ထားပါ -->
-      <img src="sanit-logo.png" alt="SANIT Logo" style="height:52px;width:auto"
+      <img src="sanit-logo.png" alt="SANIT Logo" style="height:48px;width:auto"
            onerror="this.style.display='none';document.getElementById('navFallback').style.display='block'">
-      <svg id="navFallback" style="display:none" width="46" height="46" viewBox="0 0 60 60">
+      <svg id="navFallback" style="display:none" width="42" height="42" viewBox="0 0 60 60">
         <circle cx="22" cy="20" r="9" fill="#f7941d"/>
         <g stroke="#f7941d" stroke-width="2.4" stroke-linecap="round">
           <line x1="22" y1="5" x2="22" y2="9"/><line x1="8" y1="20" x2="12" y2="20"/>
@@ -166,44 +169,35 @@
         <path d="M8 54 Q30 52 48 30" fill="none" stroke="#7dc242" stroke-width="6" stroke-linecap="round"/>
         <path d="M48 30 l-2 10 M48 30 l-10 1" stroke="#7dc242" stroke-width="6" stroke-linecap="round"/>
       </svg>
-      <span>
-        <span class="logo-name">SANIT</span><br>
-        <span class="logo-sub">Business Solutions</span>
-      </span>
+      <span><span class="logo-name">SANIT</span><br><span class="logo-sub">BUSINESS SOLUTIONS</span></span>
     </a>
-    <div class="nav-links mm">
+    <div class="nav-l mm">
       <a href="#services">ဝန်ဆောင်မှုများ</a>
-      <a href="#process">လုပ်ဆောင်ပုံ</a>
-      <a href="#about">ကျွန်ုပ်တို့အကြောင်း</a>
-      <a class="btn btn-primary" href="#contact">ဆက်သွယ်ရန်</a>
+      <a href="#video">Video</a>
+      <a href="#why">ဘာကြောင့် SANIT</a>
+      <a class="nav-cta" href="#contact">Project ရှိပါသလား?</a>
     </div>
   </div>
 </nav>
 
 <!-- ==================== HERO ==================== -->
 <header class="hero" id="home">
-  <div class="wrap hero-grid">
-    <div class="mm">
-      <span class="tag"><!-- EDIT -->SME လုပ်ငန်းရှင်များအတွက် စနစ်တကျ ဖြေရှင်းချက်</span>
-      <h1><!-- EDIT -->သင့်လုပ်ငန်းကို<br><span>စနစ်ကျစေမည့်</span><br>ယုံကြည်ရသော လက်တွဲဖော်</h1>
-      <p><!-- EDIT -->SANIT သည် SME လုပ်ငန်းများအတွက် Business System များ တည်ဆောက်ပေးခြင်း၊ AI နှင့် နည်းပညာဖြင့် လုပ်ငန်းစဉ်များကို ထိရောက်မြန်ဆန်စေခြင်းကို အဓိကဆောင်ရွက်ပေးပါသည်။</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#contact">အခမဲ့ တိုင်ပင်ဆွေးနွေးရန်</a>
-        <a class="btn btn-ghost" href="#services">ဝန်ဆောင်မှုများ ကြည့်ရန်</a>
+  <div class="wrap hero-g">
+    <div>
+      <h1>Let's Create Something <em>Truly Amazing</em> Together.</h1>
+      <p class="sub mm"><!-- EDIT -->လူကြီးမင်းရဲ့ အမြင်နဲ့ ကျွန်တော်တို့ရဲ့ ကျွမ်းကျင်မှု ပေါင်းစပ်ရင် ဘာမဆိုဖြစ်နိုင်ပါတယ်။ ကောင်းမွန်တဲ့ Business System တစ်ခုဟာ ခိုင်မာတဲ့အခြေခံ — မဟာဗျူဟာကျကျ၊ အသေးစိတ်ကျကျ စတင်ရပါတယ်။ <b>လူတွေပြောစမှတ်ဖြစ်မယ့် လုပ်ငန်းစနစ်ကို အတူတည်ဆောက်ကြရအောင်။</b></p>
+      <div class="hero-act">
+        <a class="btn btn-dark mm" href="#contact">စကားပြောကြရအောင်</a>
+        <a class="btn btn-line mm" href="#services">ဝန်ဆောင်မှုများ</a>
       </div>
-      <div class="stats">
-        <div class="stat"><b><!-- EDIT -->10+</b><br><small>ပြီးစီးပြီး Project များ</small></div>
-        <div class="stat"><b><!-- EDIT -->5+</b><br><small>နှစ်ပေါင်း အတွေ့အကြုံ</small></div>
-        <div class="stat"><b><!-- EDIT -->100%</b><br><small>ဖောက်သည် စိတ်ကျေနပ်မှု</small></div>
-      </div>
+      <p class="credit">Headline inspired by <a href="https://stensup.com/" target="_blank" rel="noopener">stensup.com</a></p>
     </div>
-    <div class="about-visual">
-      <!-- Logo အစစ် — "sanit-logo.png" ကို ဒီ file နဲ့ folder တစ်ခုတည်းထဲ ထည့်ထားပါ -->
-      <img src="sanit-logo.png" alt="SANIT Business Solutions Logo" style="width:100%;max-width:380px;height:auto"
+    <div class="hero-card">
+      <img src="sanit-logo.png" alt="SANIT Business Solutions Logo" style="width:100%;max-width:360px;height:auto"
            onerror="this.style.display='none';document.getElementById('heroFallback').style.display='block'">
       <svg id="heroFallback" style="display:none" width="100%" viewBox="0 0 300 220">
-        <rect x="20" y="30" width="260" height="160" rx="12" fill="#fff" stroke="#dde4f0" stroke-width="2"/>
-        <rect x="20" y="30" width="260" height="28" rx="12" fill="#eef3fb"/>
+        <rect x="20" y="30" width="260" height="160" rx="12" fill="#fff" stroke="#e7ecf5" stroke-width="2"/>
+        <rect x="20" y="30" width="260" height="28" rx="12" fill="#f5f8fd"/>
         <circle cx="38" cy="44" r="4" fill="#f7941d"/><circle cx="52" cy="44" r="4" fill="#7dc242"/><circle cx="66" cy="44" r="4" fill="#2aa9df"/>
         <rect x="45" y="150" width="26" height="25" rx="4" fill="#2aa9df" opacity=".8"/>
         <rect x="85" y="130" width="26" height="45" rx="4" fill="#7dc242" opacity=".85"/>
@@ -212,45 +206,85 @@
         <path d="M55 140 L95 118 L135 98 L175 75 L215 60" fill="none" stroke="#1f47b5" stroke-width="3" stroke-linecap="round"/>
         <circle cx="215" cy="60" r="6" fill="#7dc242"/>
       </svg>
-      <p class="mm" style="margin-top:14px;color:var(--muted);font-weight:600"><!-- EDIT -->လူကြီးမင်းတို့ရဲ့ တန်ဖိုးရှိတဲ့အချိန်တွေကို ချွေတာနိုင်ဖို့ ကျွန်တော်တို့က ကူညီဆောင်ရွက်ပေးနိုင်ပါတယ်</p>
+      <p class="mm" style="margin-top:16px;color:var(--muted);font-weight:600"><!-- EDIT -->လူကြီးမင်းတို့ရဲ့ တန်ဖိုးရှိတဲ့အချိန်တွေကို ချွေတာနိုင်ဖို့ ကျွန်တော်တို့က ကူညီဆောင်ရွက်ပေးနိုင်ပါတယ်</p>
     </div>
   </div>
 </header>
 
+<!-- ==================== VIDEO ==================== -->
+<section class="video-sec" id="video">
+  <div class="wrap mm">
+    <span class="eyebrow">Watch</span>
+    <h2 class="sec-h"><!-- EDIT -->SANIT အကြောင်း ကြည့်ရှုရန်</h2>
+    <p class="sec-p"><!-- EDIT -->ကျွန်တော်တို့ ဘယ်လိုအလုပ်လုပ်လဲ၊ လူကြီးမင်းလုပ်ငန်းအတွက် ဘာတွေကူညီပေးနိုင်လဲဆိုတာ video လေးကနေ ကြည့်ရှုနိုင်ပါတယ်။</p>
+    <div class="video-box" id="videoBox">
+      <div class="video-ph" id="videoPh">
+        <div class="play">▶</div>
+        <p>Video မကြာမီ လာပါမည်</p>
+        <small>Coming Soon</small>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  /* ============================================================
+     ⭐ VIDEO ထည့်နည်း — ဒီတစ်ကြောင်းပဲပြင်ပါ ⭐
+     YouTube link ကို quote ထဲမှာထည့်ပါ။ ဥပမာ:
+     const VIDEO_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+     Facebook video / mp4 file လည်းရပါတယ် (mp4 ဆို repo ထဲတင်ပြီး "video.mp4" လို့ရေးပါ)
+     ============================================================ */
+  const VIDEO_URL = "";   /* <-- EDIT: ဒီ quote ထဲမှာ video link ထည့်ပါ */
+
+  (function(){
+    if(!VIDEO_URL) return; // link မထည့်ရသေးရင် placeholder ပဲပြမယ်
+    const box = document.getElementById('videoBox');
+    let embed = "";
+    const yt = VIDEO_URL.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{6,})/);
+    if(yt){
+      embed = '<iframe src="https://www.youtube.com/embed/'+yt[1]+'" title="SANIT Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    } else if(/\.mp4($|\?)/.test(VIDEO_URL)){
+      embed = '<video controls src="'+VIDEO_URL+'"></video>';
+    } else if(VIDEO_URL.includes('facebook.com')){
+      embed = '<iframe src="https://www.facebook.com/plugins/video.php?href='+encodeURIComponent(VIDEO_URL)+'&show_text=false" allowfullscreen scrolling="no" allow="encrypted-media"></iframe>';
+    }
+    if(embed){ box.innerHTML = embed; }
+  })();
+</script>
+
 <!-- ==================== SERVICES ==================== -->
 <section id="services">
   <div class="wrap mm">
-    <span class="sec-tag">Our Services</span>
-    <h2 class="sec-title"><!-- EDIT -->ဝန်ဆောင်မှုများ</h2>
-    <p class="sec-desc"><!-- EDIT -->SME လုပ်ငန်းများ ရေရှည်တိုးတက်နိုင်ရန် လိုအပ်သော စနစ်များအားလုံးကို တစ်နေရာတည်းတွင် ဆောင်ရွက်ပေးပါသည်။</p>
+    <span class="eyebrow">What We Do</span>
+    <h2 class="sec-h"><!-- EDIT -->ဝန်ဆောင်မှုများ</h2>
+    <p class="sec-p"><!-- EDIT -->အဓိပ္ပာယ်ရှိပြီး စနစ်ကျတဲ့ လုပ်ငန်းစနစ်တွေကို တည်ဆောက်ပေးပါတယ်။ SME လုပ်ငန်းတိုင်း ရေရှည်တိုးတက်ဖို့ လိုအပ်သမျှ တစ်နေရာတည်းမှာ။</p>
     <div class="cards">
       <div class="card">
-        <div class="icon ic-blue">🏗️</div>
+        <div class="chip c-blue">🏗️</div>
         <h3><!-- EDIT -->Business System တည်ဆောက်ခြင်း</h3>
-        <p><!-- EDIT -->လုပ်ငန်းလည်ပတ်မှုစနစ်၊ SOP နှင့် Workflow များကို လုပ်ငန်းအမျိုးအစားနှင့်ကိုက်ညီအောင် ရေးဆွဲတည်ဆောက်ပေးပါသည်။</p>
+        <p><!-- EDIT -->လုပ်ငန်းလည်ပတ်မှုစနစ်၊ SOP နှင့် Workflow များကို လုပ်ငန်းအမျိုးအစားနှင့် ကိုက်ညီအောင် ရေးဆွဲတည်ဆောက်ပေးပါသည်။ <b>ထိရောက်တဲ့စနစ်ကို အတူဖန်တီးကြရအောင်။</b></p>
       </div>
       <div class="card">
-        <div class="icon ic-green">📊</div>
+        <div class="chip c-green">📊</div>
         <h3><!-- EDIT -->စာရင်းကိုင်နှင့် Financial Reporting</h3>
-        <p><!-- EDIT -->စာရင်းစနစ်ချမှတ်ခြင်း၊ လစဉ်/နှစ်စဉ် Financial Report များ တိကျစနစ်တကျ ထုတ်ပြန်နိုင်အောင် စီစဉ်ပေးပါသည်။</p>
+        <p><!-- EDIT -->စာရင်းစနစ်ချမှတ်ခြင်း၊ လစဉ်/နှစ်စဉ် Financial Report များ တိကျစနစ်တကျ ထုတ်ပြန်နိုင်အောင် စီစဉ်ဆောင်ရွက်ပေးပါသည်။</p>
       </div>
       <div class="card">
-        <div class="icon ic-orange">🤖</div>
+        <div class="chip c-orange">🤖</div>
         <h3><!-- EDIT -->AI ဖြင့် လုပ်ငန်းအလိုအလျောက်စနစ်</h3>
         <p><!-- EDIT -->ထပ်ခါထပ်ခါလုပ်ရသော အလုပ်များကို AI နှင့် Automation ဖြင့် အချိန်ကုန်သက်သာ၊ အမှားနည်းအောင် ပြောင်းလဲပေးပါသည်။</p>
       </div>
       <div class="card">
-        <div class="icon ic-cyan">📈</div>
+        <div class="chip c-cyan">📈</div>
         <h3><!-- EDIT -->Data Analysis နှင့် Dashboard</h3>
         <p><!-- EDIT -->လုပ်ငန်းဒေတာများကို အချက်အလက်အခြေပြု ဆုံးဖြတ်နိုင်ရန် Dashboard နှင့် Report များ ဖန်တီးပေးပါသည်။</p>
       </div>
       <div class="card">
-        <div class="icon ic-blue">🎓</div>
+        <div class="chip c-blue">🎓</div>
         <h3><!-- EDIT -->ဝန်ထမ်းသင်တန်းပေးခြင်း</h3>
-        <p><!-- EDIT -->ချမှတ်ထားသောစနစ်များကို ဝန်ထမ်းများ ကျွမ်းကျင်စွာအသုံးပြုနိုင်ရန် လက်တွေ့သင်တန်းများ ပို့ချပေးပါသည်။</p>
+        <p><!-- EDIT -->ချမှတ်ထားသောစနစ်များကို ဝန်ထမ်းများ ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ရန် လက်တွေ့သင်တန်းများ ပို့ချပေးပါသည်။</p>
       </div>
       <div class="card">
-        <div class="icon ic-green">🧭</div>
+        <div class="chip c-green">🧭</div>
         <h3><!-- EDIT -->လုပ်ငန်းအကြံပေးဝန်ဆောင်မှု</h3>
         <p><!-- EDIT -->လုပ်ငန်းတိုးချဲ့ရေး၊ ကုန်ကျစရိတ်လျှော့ချရေးနှင့် ထိရောက်မှုမြှင့်တင်ရေးအတွက် အကြံဉာဏ်များ ပေးပါသည်။</p>
       </div>
@@ -258,38 +292,37 @@
   </div>
 </section>
 
-<!-- ==================== PROCESS ==================== -->
-<section class="process" id="process">
-  <div class="wrap mm">
-    <span class="sec-tag" style="color:var(--orange)">How We Work</span>
-    <h2 class="sec-title"><!-- EDIT -->ကျွန်ုပ်တို့ လုပ်ဆောင်ပုံ</h2>
-    <p class="sec-desc"><!-- EDIT -->ရိုးရှင်းပြီး ရလဒ်ထွက်သော အဆင့် ၄ ဆင့်ဖြင့် သင့်လုပ်ငန်းကို စနစ်ကျစေပါမည်။</p>
-    <div class="steps">
-      <div class="step"><div class="num">1</div><h3><!-- EDIT -->လေ့လာသုံးသပ်ခြင်း</h3><p><!-- EDIT -->လက်ရှိလုပ်ငန်းလည်ပတ်မှုနှင့် အခက်အခဲများကို အသေးစိတ်လေ့လာသည်။</p></div>
-      <div class="step"><div class="num">2</div><h3><!-- EDIT -->စနစ်ရေးဆွဲခြင်း</h3><p><!-- EDIT -->လုပ်ငန်းနှင့်ကိုက်ညီသော စနစ်နှင့်နည်းပညာများကို ရွေးချယ်ဒီဇိုင်းဆွဲသည်။</p></div>
-      <div class="step"><div class="num">3</div><h3><!-- EDIT -->အကောင်အထည်ဖော်ခြင်း</h3><p><!-- EDIT -->စနစ်များကို တပ်ဆင်၍ ဝန်ထမ်းများအား လက်တွေ့သင်ကြားပေးသည်။</p></div>
-      <div class="step"><div class="num">4</div><h3><!-- EDIT -->စောင့်ကြည့်မြှင့်တင်ခြင်း</h3><p><!-- EDIT -->ရလဒ်များကို စောင့်ကြည့်ပြီး စဉ်ဆက်မပြတ် တိုးတက်အောင် ပြုပြင်ပေးသည်။</p></div>
+<!-- ==================== FORMULA ==================== -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="band mm">
+      <div>
+        <span class="eyebrow">Formula</span>
+        <h2><!-- EDIT -->ကျွန်တော်တို့ ဘယ်လိုလုပ်ဆောင်လဲ</h2>
+        <p><!-- EDIT -->လုပ်ငန်းအရွယ်အစား ဘယ်လောက်ပဲဖြစ်ဖြစ် — ကျွန်တော်တို့က ရေရှည်လက်တွဲမှုကို ဦးစားပေးပါတယ်။ လူကြီးမင်းရဲ့လုပ်ငန်း၊ အရေးကြီးဆုံး လူကြီးမင်းရဲ့ ဖောက်သည်တွေကို နားလည်အောင် အချိန်ယူလေ့လာပြီးမှ စနစ်တည်ဆောက်ပါတယ်။</p>
+        <a class="btn" href="#contact">အခမဲ့ တိုင်ပင်ဆွေးနွေးရန်</a>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><b><!-- EDIT -->လေ့လာသုံးသပ်ခြင်း</b></div>
+        <div class="step"><div class="n">2</div><b><!-- EDIT -->စနစ်ရေးဆွဲခြင်း</b></div>
+        <div class="step"><div class="n">3</div><b><!-- EDIT -->အကောင်အထည်ဖော်ခြင်း</b></div>
+        <div class="step"><div class="n">4</div><b><!-- EDIT -->စောင့်ကြည့်မြှင့်တင်ခြင်း</b></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ==================== ABOUT ==================== -->
-<section class="about" id="about">
-  <div class="wrap about-grid mm">
-    <div>
-      <span class="sec-tag">About SANIT</span>
-      <h2 class="sec-title"><!-- EDIT -->ကျွန်ုပ်တို့အကြောင်း</h2>
-      <p class="sec-desc"><!-- EDIT -->SANIT ကို စာရင်းကိုင်နှင့် Financial Reporting အတွေ့အကြုံရှိသော ပညာရှင်မှ တည်ထောင်ခဲ့ပြီး SME လုပ်ငန်းများ နည်းပညာဖြင့် တိုးတက်စေရန် ရည်ရွယ်ပါသည်။</p>
-      <ul>
-        <li><!-- EDIT -->လက်တွေ့လုပ်ငန်းခွင် အတွေ့အကြုံအခြေပြု ဝန်ဆောင်မှု</li>
-        <li><!-- EDIT -->AI နှင့် ခေတ်မီနည်းပညာများ ပေါင်းစပ်အသုံးပြုမှု</li>
-        <li><!-- EDIT -->SME အရွယ်အစားနှင့် ဘတ်ဂျက်နှင့် ကိုက်ညီသော ဖြေရှင်းချက်</li>
-        <li><!-- EDIT -->ရေရှည်လက်တွဲနိုင်သော ယုံကြည်စိတ်ချရမှု</li>
-      </ul>
-    </div>
-    <div class="about-visual">
-      <h3 style="color:var(--blue-dark);font-size:1.3rem" class="mm"><!-- EDIT -->"လုပ်ငန်းတိုင်း စနစ်ကျရမည်"</h3>
-      <p class="mm" style="color:var(--muted);margin-top:12px"><!-- EDIT -->ကျွန်ုပ်တို့၏ ရည်မှန်းချက်မှာ မြန်မာ SME လုပ်ငန်းများ နည်းပညာဖြင့် ကမ္ဘာ့အဆင့်မီ လည်ပတ်နိုင်စေရန် ဖြစ်ပါသည်။</p>
+<!-- ==================== WHY US ==================== -->
+<section id="why" style="padding-top:0">
+  <div class="wrap mm">
+    <span class="eyebrow">Why Choose Us</span>
+    <h2 class="sec-h"><!-- EDIT -->ဘာကြောင့် SANIT ကို ရွေးသင့်လဲ?</h2>
+    <p class="sec-p"><!-- EDIT -->စနစ်မကျတဲ့ လုပ်ငန်းလည်ပတ်မှုက လုပ်ငန်းကို နောက်ကျကျန်စေပါတယ်။ ကျွန်တော်တို့က ယုံကြည်စိတ်ချရပြီး ထိရောက်တဲ့စနစ်တွေနဲ့ လုပ်ငန်းရည်မှန်းချက်တွေကို အကောင်အထည်ဖော်ပေးပါတယ်။</p>
+    <div class="why">
+      <div><b><!-- EDIT -->We Innovate & Create</b><p><!-- EDIT -->ခိုင်မာတဲ့အခြေခံကနေစပြီး ဖန်တီးမှုနဲ့ မဟာဗျူဟာပေါင်းစပ်ကာ လက်တွေ့အသုံးဝင်တဲ့ စနစ်တွေတည်ဆောက်ပါတယ်။</p></div>
+      <div><b><!-- EDIT -->We Listen to Your Ideas</b><p><!-- EDIT -->လူကြီးမင်းရဲ့အမြင်က အရေးကြီးပါတယ်။ ရည်မှန်းချက်နဲ့ အခက်အခဲတွေကို နားလည်အောင်လေ့လာပြီး လက်တွေ့အစီအစဉ်အဖြစ် ပြောင်းလဲပေးပါတယ်။</p></div>
+      <div><b><!-- EDIT -->We Ensure Quality</b><p><!-- EDIT -->အရည်အသွေးကို အလေးထားပါတယ်။ ချမှတ်ပေးတဲ့စနစ်တိုင်း တိကျစွာစစ်ဆေးပြီးမှ လွှဲပြောင်းပေးပါတယ်။</p></div>
+      <div><b><!-- EDIT -->We Support & Partner</b><p><!-- EDIT -->စနစ်ချပြီးတာနဲ့ မပြီးသေးပါဘူး။ ဆက်လက်ပံ့ပိုးမှု၊ update နဲ့ လမ်းညွှန်မှုတွေနဲ့ ရေရှည်လက်တွဲသွားပါမယ်။</p></div>
     </div>
   </div>
 </section>
@@ -297,46 +330,6 @@
 <!-- ==================== CONTACT ==================== -->
 <section class="contact" id="contact">
   <div class="wrap mm">
-    <span class="sec-tag">Contact</span>
-    <h2 class="sec-title"><!-- EDIT -->ဆက်သွယ်ရန်</h2>
-    <p class="sec-desc"><!-- EDIT -->သင့်လုပ်ငန်းအတွက် အခမဲ့တိုင်ပင်ဆွေးနွေးလိုပါက အောက်ပါအတိုင်း ဆက်သွယ်နိုင်ပါသည်။</p>
-    <div class="contact-grid">
-      <div>
-        <div class="contact-item"><div class="ci">📧</div><div><b>Email</b><span><!-- EDIT -->sanitforyourbusiness@gmail.com</span></div></div>
-        <div class="contact-item"><div class="ci">📞</div><div><b>ဖုန်း</b><span><!-- EDIT -->09-XXX XXX XXX</span></div></div>
-        <div class="contact-item"><div class="ci">📍</div><div><b>လိပ်စာ</b><span><!-- EDIT -->နေပြည်တော်၊ မြန်မာနိုင်ငံ</span></div></div>
-        <div class="contact-item"><div class="ci">💬</div><div><b>Social Media</b><span><!-- EDIT -->Facebook / Viber / Telegram link များထည့်ရန်</span></div></div>
-      </div>
-      <!-- Contact Form — FormSubmit.co မှတဆင့် sanitforyourbusiness@gmail.com သို့ရောက်မည် -->
-      <form action="https://formsubmit.co/sanitforyourbusiness@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="SANIT Website မှ ဆက်သွယ်စာအသစ်">
-        <input type="hidden" name="_next" value="https://sanitforyourbusiness.github.io/?sent=1#contact">
-        <input type="hidden" name="_template" value="table">
-        <div class="row">
-          <input type="text" name="အမည်" placeholder="အမည်" required>
-          <input type="text" name="ဖုန်းနံပါတ်" placeholder="ဖုန်းနံပါတ်">
-        </div>
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea rows="4" name="စာ" placeholder="သင့်လုပ်ငန်းအကြောင်းနှင့် လိုအပ်ချက်ကို ရေးပါ..." required></textarea>
-        <button class="btn btn-primary" type="submit" style="border:none;cursor:pointer;font-family:inherit">ပေးပို့မည်</button>
-      </form>
-      <script>
-        if(new URLSearchParams(location.search).get('sent')==='1'){
-          alert('ကျေးဇူးတင်ပါသည်။ သင့်စာကို ပေးပို့ပြီးပါပြီ။ မကြာမီ ပြန်လည်ဆက်သွယ်ပေးပါမည်။');
-        }
-      </script>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== FOOTER ==================== -->
-<footer class="mm">
-  <div class="wrap">
-    <b>SANIT Business Solutions</b> (sanitforyourbusiness) — <!-- EDIT -->SME လုပ်ငန်းများအတွက် စနစ်ကျသောအနာဂတ်<br>
-    Email: sanitforyourbusiness@gmail.com | Web: sanitforyourbusiness.github.io<br>
-    © 2026 SANIT. All rights reserved.
-  </div>
-</footer>
-
-</body>
-</html>
+    <span class="eyebrow">Contact</span>
+    <h2 class="sec-h"><!-- EDIT -->Project ရှိပါသလား? စကားပြောကြရအောင်။</h2>
+    <p class="sec-p"><!-- EDIT -->သင့်လုပ်ငန်းအတွက် အခမဲ့တိုင်ပင်
